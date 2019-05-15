@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		844B95E2228BAA0000C615DD /* EMLoader_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B95E0228BAA0000C615DD /* EMLoader_01.swift */; };
 		844B95E3228BAA0000C615DD /* EMLoader_01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844B95E1228BAA0000C615DD /* EMLoader_01.xib */; };
+		844B95FD228BEC7900C615DD /* EMLoader_01.swift in Resources */ = {isa = PBXBuildFile; fileRef = 844B95E0228BAA0000C615DD /* EMLoader_01.swift */; };
+		844B95FE228BEC7900C615DD /* CustomView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 84C246D5228A9CF400837B3F /* CustomView.swift */; };
+		844B95FF228BEC9F00C615DD /* EMLoader.swift in Resources */ = {isa = PBXBuildFile; fileRef = 84C246D3228A9BD700837B3F /* EMLoader.swift */; };
 		84C246C6228A99D200837B3F /* EMDotLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C246C4228A99D200837B3F /* EMDotLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84C246CD228A9A2A00837B3F /* EMLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C246CC228A9A2A00837B3F /* EMLoader.xib */; };
 		84C246D4228A9BD700837B3F /* EMLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C246D3228A9BD700837B3F /* EMLoader.swift */; };
@@ -139,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844B95FF228BEC9F00C615DD /* EMLoader.swift in Resources */,
+				844B95FD228BEC7900C615DD /* EMLoader_01.swift in Resources */,
+				844B95FE228BEC7900C615DD /* CustomView.swift in Resources */,
 				84C246CD228A9A2A00837B3F /* EMLoader.xib in Resources */,
 				844B95E3228BAA0000C615DD /* EMLoader_01.xib in Resources */,
 			);
