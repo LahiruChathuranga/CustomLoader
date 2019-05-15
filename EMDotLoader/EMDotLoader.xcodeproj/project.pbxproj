@@ -7,27 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		844B95E2228BAA0000C615DD /* EMLoader_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B95E0228BAA0000C615DD /* EMLoader_01.swift */; };
-		844B95E3228BAA0000C615DD /* EMLoader_01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844B95E1228BAA0000C615DD /* EMLoader_01.xib */; };
-		844B95FD228BEC7900C615DD /* EMLoader_01.swift in Resources */ = {isa = PBXBuildFile; fileRef = 844B95E0228BAA0000C615DD /* EMLoader_01.swift */; };
-		844B95FE228BEC7900C615DD /* CustomView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 84C246D5228A9CF400837B3F /* CustomView.swift */; };
-		844B95FF228BEC9F00C615DD /* EMLoader.swift in Resources */ = {isa = PBXBuildFile; fileRef = 84C246D3228A9BD700837B3F /* EMLoader.swift */; };
+		844B9603228BF04300C615DD /* EMLoader_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B9601228BF04200C615DD /* EMLoader_01.swift */; };
+		844B9605228BF05000C615DD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B9604228BF05000C615DD /* CustomView.swift */; };
+		844B9606228BF09C00C615DD /* EMLoader_01.xib in Sources */ = {isa = PBXBuildFile; fileRef = 844B9600228BF04200C615DD /* EMLoader_01.xib */; };
+		844B960A228BF0BA00C615DD /* EMLoader.xib in Sources */ = {isa = PBXBuildFile; fileRef = 84C246CC228A9A2A00837B3F /* EMLoader.xib */; };
 		84C246C6228A99D200837B3F /* EMDotLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C246C4228A99D200837B3F /* EMDotLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84C246CD228A9A2A00837B3F /* EMLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C246CC228A9A2A00837B3F /* EMLoader.xib */; };
 		84C246D4228A9BD700837B3F /* EMLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C246D3228A9BD700837B3F /* EMLoader.swift */; };
-		84C246D6228A9CF400837B3F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C246D5228A9CF400837B3F /* CustomView.swift */; };
 		84C246FC228AA97800837B3F /* EMDotLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C246FB228AA97800837B3F /* EMDotLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		844B95E0228BAA0000C615DD /* EMLoader_01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EMLoader_01.swift; path = ../../CustomLoader/CustomLoader/StyleOne/EMLoader_01.swift; sourceTree = "<group>"; };
-		844B95E1228BAA0000C615DD /* EMLoader_01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EMLoader_01.xib; path = ../../CustomLoader/CustomLoader/StyleOne/EMLoader_01.xib; sourceTree = "<group>"; };
+		844B9600228BF04200C615DD /* EMLoader_01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMLoader_01.xib; sourceTree = SOURCE_ROOT; };
+		844B9601228BF04200C615DD /* EMLoader_01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMLoader_01.swift; sourceTree = SOURCE_ROOT; };
+		844B9604228BF05000C615DD /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = SOURCE_ROOT; };
 		84C246C1228A99D200837B3F /* EMDotLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMDotLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C246C4228A99D200837B3F /* EMDotLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMDotLoader.h; sourceTree = "<group>"; };
 		84C246C5228A99D200837B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C246CC228A9A2A00837B3F /* EMLoader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EMLoader.xib; sourceTree = "<group>"; };
 		84C246D3228A9BD700837B3F /* EMLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMLoader.swift; sourceTree = "<group>"; };
-		84C246D5228A9CF400837B3F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = ../../CustomLoader/CustomLoader/CustomView.swift; sourceTree = "<group>"; };
 		84C246FB228AA97800837B3F /* EMDotLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMDotLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,9 +58,9 @@
 		84C246C3228A99D200837B3F /* EMDotLoader */ = {
 			isa = PBXGroup;
 			children = (
-				844B95E0228BAA0000C615DD /* EMLoader_01.swift */,
-				844B95E1228BAA0000C615DD /* EMLoader_01.xib */,
-				84C246D5228A9CF400837B3F /* CustomView.swift */,
+				844B9604228BF05000C615DD /* CustomView.swift */,
+				844B9601228BF04200C615DD /* EMLoader_01.swift */,
+				844B9600228BF04200C615DD /* EMLoader_01.xib */,
 				84C246C4228A99D200837B3F /* EMDotLoader.h */,
 				84C246C5228A99D200837B3F /* Info.plist */,
 				84C246CC228A9A2A00837B3F /* EMLoader.xib */,
@@ -142,11 +139,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844B95FF228BEC9F00C615DD /* EMLoader.swift in Resources */,
-				844B95FD228BEC7900C615DD /* EMLoader_01.swift in Resources */,
-				844B95FE228BEC7900C615DD /* CustomView.swift in Resources */,
-				84C246CD228A9A2A00837B3F /* EMLoader.xib in Resources */,
-				844B95E3228BAA0000C615DD /* EMLoader_01.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844B960A228BF0BA00C615DD /* EMLoader.xib in Sources */,
+				844B9606228BF09C00C615DD /* EMLoader_01.xib in Sources */,
 				84C246D4228A9BD700837B3F /* EMLoader.swift in Sources */,
+				844B9605228BF05000C615DD /* CustomView.swift in Sources */,
+				844B9603228BF04300C615DD /* EMLoader_01.swift in Sources */,
 				84C246FC228AA97800837B3F /* EMDotLoader.swift in Sources */,
-				84C246D6228A9CF400837B3F /* CustomView.swift in Sources */,
-				844B95E2228BAA0000C615DD /* EMLoader_01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
