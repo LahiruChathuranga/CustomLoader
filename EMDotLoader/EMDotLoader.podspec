@@ -12,9 +12,9 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "11.0"
   spec.swift_version = '4.0'
   spec.source       = { :git => "https://github.com/LahiruChathuranga/CustomLoader.git", :tag => "1.0.0" }
-  spec.source_files  = "EMDotLoader/**/*.{swift}"
+  spec.source_files  = "EMDotLoader/EMDotLoader/*.{swift}"
   spec.frameworks = 'UIKit'
-  spec.resources = "EMDotLoader/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resources = "EMDotLoader/EMDotLoader/*.{xib}"
   #spec.exclude_files = "EMDotLoader/**/info.plist"
 
 end
