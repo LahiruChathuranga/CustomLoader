@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomLoader" customModule="EMDotLoader" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="bdg-XT-Vme"/>
+                <outlet property="customView1" destination="IHq-Ye-oFV" id="xhm-fU-V09"/>
+                <outlet property="customView2" destination="tiM-fe-02b" id="tg0-vW-1sP"/>
+                <outlet property="mainStackView" destination="lNJ-3o-MC2" id="29s-0H-3na"/>
+                <outlet property="stack1View3" destination="4wh-EG-Gex" id="BIT-63-KHT"/>
+                <outlet property="stack2View4" destination="6s9-lt-A1a" id="iWK-0Q-Tgv"/>
+                <outlet property="stack3View2" destination="I4m-Ox-7S0" id="vmx-RG-dpq"/>
+                <outlet property="stackView1" destination="n7Q-40-0o1" id="OOO-X7-Kog"/>
+                <outlet property="stackView2" destination="8am-hT-7Ty" id="3DZ-Hu-Tyz"/>
+                <outlet property="stackView3" destination="0Vx-KW-glY" id="m9u-gZ-qgv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lNJ-3o-MC2">
+                    <rect key="frame" x="146.5" y="328.5" width="82" height="10"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHq-Ye-oFV" customClass="CustomView" customModule="EMDotLoader" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
+                            <color key="backgroundColor" red="1" green="0.14901960780000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="10" id="FYD-C3-6iu"/>
+                                <constraint firstAttribute="width" constant="10" id="I5f-mJ-QVj"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="n7Q-40-0o1">
+                            <rect key="frame" x="18" y="0.0" width="10" height="10"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4wh-EG-Gex" customClass="CustomView" customModule="EMDotLoader" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
+                                    <color key="backgroundColor" red="0.22152536919999999" green="1" blue="0.29300879060000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="10" id="63P-nZ-okv"/>
+                                        <constraint firstAttribute="height" constant="10" id="Aek-4O-gMt"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.22152536919999999" green="1" blue="0.29300879060000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="8am-hT-7Ty">
+                            <rect key="frame" x="36" y="0.0" width="10" height="10"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6s9-lt-A1a" customClass="CustomView" customModule="EMDotLoader" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
+                                    <color key="backgroundColor" red="1" green="0.95141137990000002" blue="0.1893404343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="10" id="7HE-yh-nbi"/>
+                                        <constraint firstAttribute="height" constant="10" id="uzg-pW-Kjb"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.95141137990000002" blue="0.1893404343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="0Vx-KW-glY">
+                            <rect key="frame" x="54" y="0.0" width="10" height="10"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4m-Ox-7S0" customClass="CustomView" customModule="EMDotLoader" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
+                                    <color key="backgroundColor" red="0.1199093752" green="0.14730504920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="Ea9-sZ-aoR"/>
+                                        <constraint firstAttribute="width" constant="10" id="ydK-fJ-XRQ"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tiM-fe-02b" customClass="CustomView" customModule="EMDotLoader" customModuleProvider="target">
+                            <rect key="frame" x="72" y="0.0" width="10" height="10"/>
+                            <color key="backgroundColor" red="1" green="0.2893970032" blue="0.97660611310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="10" id="PHO-7O-H7i"/>
+                                <constraint firstAttribute="height" constant="10" id="fYc-q8-zS0"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.098191352739726026" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lNJ-3o-MC2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="azD-cq-g3K"/>
+                <constraint firstItem="lNJ-3o-MC2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="uuL-RZ-WN8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>
