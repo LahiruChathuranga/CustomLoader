@@ -13,7 +13,7 @@ public class EMDotLoader {
     
     //Variables
     private var customLoader: EMLoader?
-    private var customLoaderOne: EMLoader_01?
+    private var customLoaderOne: EMLoaderOne?
     private var backMainView: UIView?
     
     
@@ -32,7 +32,7 @@ public class EMDotLoader {
             }
             
         case .wave:
-            customLoaderOne = EMLoader_01.init(frame: backView.bounds)
+            customLoaderOne = EMLoaderOne.init(frame: backView.bounds)
             
             if dotColor != nil {
                 customLoaderOne?.setDotColor(color: dotColor!)
