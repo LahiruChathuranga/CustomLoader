@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class EMLoader: UIView {
+class EMLoader: UIView {
     
     @IBOutlet  var contentView: UIView!
     @IBOutlet  weak var stack1View1: UIView!

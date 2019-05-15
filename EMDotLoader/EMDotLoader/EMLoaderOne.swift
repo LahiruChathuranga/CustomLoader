@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class EMLoaderOne: UIView {
+ class EMLoaderOne: UIView {
     
     //MARK: outlets
     @IBOutlet private weak var mainStackView: UIStackView!
