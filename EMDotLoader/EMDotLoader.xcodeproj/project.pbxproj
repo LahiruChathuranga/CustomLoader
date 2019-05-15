@@ -11,7 +11,7 @@
 		844B9615228BF40400C615DD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B9612228BF40400C615DD /* CustomView.swift */; };
 		844B9616228BF40400C615DD /* EMLoader_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B9613228BF40400C615DD /* EMLoader_01.swift */; };
 		844B9617228BF41000C615DD /* EMLoader_01.xib in Sources */ = {isa = PBXBuildFile; fileRef = 844B9611228BF40400C615DD /* EMLoader_01.xib */; };
-		84C246C6228A99D200837B3F /* EMDotLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C246C4228A99D200837B3F /* EMDotLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844B961B228BFFB800C615DD /* EMDotLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C246C4228A99D200837B3F /* EMDotLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84C246D4228A9BD700837B3F /* EMLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C246D3228A9BD700837B3F /* EMLoader.swift */; };
 		84C246FC228AA97800837B3F /* EMDotLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C246FB228AA97800837B3F /* EMDotLoader.swift */; };
 /* End PBXBuildFile section */
@@ -77,7 +77,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C246C6228A99D200837B3F /* EMDotLoader.h in Headers */,
+				844B961B228BFFB800C615DD /* EMDotLoader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
