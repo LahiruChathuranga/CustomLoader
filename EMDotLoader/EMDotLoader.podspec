@@ -7,14 +7,14 @@ Pod::Spec.new do |spec|
   spec.description  = "This is a nice library for IOS.it has several custom loaders."
 
   spec.homepage     = "https://https://github.com/LahiruChathuranga/CustomLoader"
-  spec.license      = { :type => 'MIT' }
-  
+  spec.license      = { :type => "MIT", :file => "LICENSE" }  
   spec.author       = { "Lahiru Chathuranga" => "hiru.wlc@gmail.com" }
   spec.platform     = :ios, "11.0"
   spec.swift_version = '4.0'
   spec.source       = { :git => "https://github.com/LahiruChathuranga/CustomLoader.git", :tag => "1.0.0" }
-  spec.source_files  = "EMDotLoader/**/*"
+  spec.source_files  = "EMDotLoader/**/*.{swift}"
   spec.frameworks = 'UIKit'
+  spec.resources = "EMDotLoader/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   #spec.exclude_files = "EMDotLoader/**/info.plist"
 
 end
