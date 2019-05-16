@@ -14,16 +14,14 @@ public class EMDotLoader {
     //Variables
     private var customLoader: EMLoader?
     private var customLoaderOne: EMLoaderOne?
-    private var backMainView: UIView?
     
     
-    public init(backView: UIView, backgroundColor: UIColor? = .black, dotColor: UIColor? = .red, style: LoaderStyle = .dot ) {
-        self.backMainView = backView
+    public init(backgroundColor: UIColor? = .black, dotColor: UIColor? = .red, style: LoaderStyle = .dot ) {
         
         switch style {
             
         case .dot:
-            customLoader = EMLoader.init(frame: backView.bounds)
+            customLoader = EMLoader.init(frame: UIScreen.main.bounds)
             if backgroundColor != nil {
                 customLoader?.setBGColor(backColor: backgroundColor!)
             }
@@ -32,7 +30,7 @@ public class EMDotLoader {
             }
             
         case .wave:
-            customLoaderOne = EMLoaderOne.init(frame: backView.bounds)
+            customLoaderOne = EMLoaderOne.init(frame: UIScreen.main.bounds)
             
             if dotColor != nil {
                 customLoaderOne?.setDotColor(color: dotColor!)
@@ -42,10 +40,10 @@ public class EMDotLoader {
     
     public func showLoader() {
         if let loader = customLoader {
-            backMainView?.addSubview(loader)
+            UIApplication.shared.keyWindow?.addSubview(loader)
         }
         if let loader = customLoaderOne {
-            backMainView?.addSubview(loader)
+            UIApplication.shared.keyWindow?.addSubview(loader)
         }
     }
     public func hideLoader() {

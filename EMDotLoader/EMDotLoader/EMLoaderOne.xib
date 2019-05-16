@@ -119,7 +119,7 @@
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </stackView>
             </subviews>
-            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.098191352739726026" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="lNJ-3o-MC2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="azD-cq-g3K"/>
                 <constraint firstItem="lNJ-3o-MC2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="uuL-RZ-WN8"/>
