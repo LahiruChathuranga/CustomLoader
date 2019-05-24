@@ -14,8 +14,8 @@
 		844B961B228BFFB800C615DD /* EMDotLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C246C4228A99D200837B3F /* EMDotLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84C246D4228A9BD700837B3F /* EMLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C246D3228A9BD700837B3F /* EMLoader.swift */; };
 		84C246FC228AA97800837B3F /* EMDotLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C246FB228AA97800837B3F /* EMDotLoader.swift */; };
-		84CF6F55229797240065EEAA /* CustomLoaderTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF6F53229797240065EEAA /* CustomLoaderTwo.swift */; };
-		84CF6F56229797240065EEAA /* CustomLoaderTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CF6F54229797240065EEAA /* CustomLoaderTwo.xib */; };
+		84CF6F55229797240065EEAA /* EMLoaderTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF6F53229797240065EEAA /* EMLoaderTwo.swift */; };
+		84CF6F56229797240065EEAA /* EMLoaderTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CF6F54229797240065EEAA /* EMLoaderTwo.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		84C246CC228A9A2A00837B3F /* EMLoader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EMLoader.xib; sourceTree = "<group>"; };
 		84C246D3228A9BD700837B3F /* EMLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMLoader.swift; sourceTree = "<group>"; };
 		84C246FB228AA97800837B3F /* EMDotLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMDotLoader.swift; sourceTree = "<group>"; };
-		84CF6F53229797240065EEAA /* CustomLoaderTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoaderTwo.swift; sourceTree = "<group>"; };
-		84CF6F54229797240065EEAA /* CustomLoaderTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomLoaderTwo.xib; sourceTree = "<group>"; };
+		84CF6F53229797240065EEAA /* EMLoaderTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMLoaderTwo.swift; sourceTree = "<group>"; };
+		84CF6F54229797240065EEAA /* EMLoaderTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMLoaderTwo.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 		84C246C3228A99D200837B3F /* EMDotLoader */ = {
 			isa = PBXGroup;
 			children = (
-				84CF6F53229797240065EEAA /* CustomLoaderTwo.swift */,
-				84CF6F54229797240065EEAA /* CustomLoaderTwo.xib */,
+				84CF6F53229797240065EEAA /* EMLoaderTwo.swift */,
+				84CF6F54229797240065EEAA /* EMLoaderTwo.xib */,
 				844B9612228BF40400C615DD /* CustomView.swift */,
 				844B9613228BF40400C615DD /* EMLoaderOne.swift */,
 				844B9611228BF40400C615DD /* EMLoaderOne.xib */,
@@ -145,7 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CF6F56229797240065EEAA /* CustomLoaderTwo.xib in Resources */,
+				84CF6F56229797240065EEAA /* EMLoaderTwo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +162,7 @@
 				84C246D4228A9BD700837B3F /* EMLoader.swift in Sources */,
 				844B9616228BF40400C615DD /* EMLoaderOne.swift in Sources */,
 				84C246FC228AA97800837B3F /* EMDotLoader.swift in Sources */,
-				84CF6F55229797240065EEAA /* CustomLoaderTwo.swift in Sources */,
+				84CF6F55229797240065EEAA /* EMLoaderTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,8 @@ public class EMDotLoader {
     //Variables
     private var customLoader: EMLoader?
     private var customLoaderOne: EMLoaderOne?
+    private var customLoaderTwo: EMLoaderTwo?
+    
     
     
     public init(backgroundColor: UIColor? = .black, dotColor: UIColor? = .red, style: LoaderStyle = .dot ) {
@@ -36,12 +38,12 @@ public class EMDotLoader {
                 customLoaderOne?.setDotColor(color: dotColor!)
             }
         case .flipSqure:
-            customLoader = EMLoader.init(frame: UIScreen.main.bounds)
+            customLoaderTwo = EMLoaderTwo.init(frame: UIScreen.main.bounds)
             if backgroundColor != nil {
-                customLoader?.setBGColor(backColor: backgroundColor!)
+                customLoaderTwo?.setBGColor(backColor: backgroundColor!)
             }
             if dotColor != nil {
-                customLoader?.setDotColor(dotColor: dotColor!)
+                customLoaderTwo?.setDotColor(dotColor: dotColor!)
             }
         }
     }

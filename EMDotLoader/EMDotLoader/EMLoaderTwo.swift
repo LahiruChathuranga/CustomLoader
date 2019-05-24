@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class CustomLoaderTwo: UIView {
+class EMLoaderTwo: UIView {
     
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var middleView: UIView!
