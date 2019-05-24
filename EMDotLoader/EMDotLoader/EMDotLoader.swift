@@ -55,6 +55,10 @@ public class EMDotLoader {
         if let loader = customLoaderOne {
             UIApplication.shared.keyWindow?.addSubview(loader)
         }
+        if let loader = customLoaderTwo {
+            UIApplication.shared.keyWindow?.addSubview(loader)
+        }
+
     }
     public func hideLoader() {
         
@@ -64,6 +68,10 @@ public class EMDotLoader {
         if let loader = customLoaderOne {
             loader.removeFromSuperview()
         }
+        if let loader = customLoaderTwo {
+            loader.removeFromSuperview()
+        }
+
     }
     
 }
